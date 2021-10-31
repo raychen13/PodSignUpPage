@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  font-family: 'Chivo', sans-serif;
+  background-color: #121725;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 52px;
+  width: 665px;
+  height: 124px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+h1 span {
+  color: #54E6AF;
+}
+
+
+.info-background {
+  margin: 0;
+  position: absolute;
+  left: 165px;
+  bottom: 130px;
+  z-index: 1;
+  background-color: #121725;
+  width: 723px;
+  height: 509px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 88px;
+  height: 421px;
+}
+
+.maininfo {
+  margin-top:-40px;
+  padding: 0;
+  width: 445px;
+  height: 84px;
+  color: #C2CBE5;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: 300;
+}
+
+.form {
+  margin-top: -50px;
+  width: 427px;
+  height: 56px;
+}
+
+.email {
+  position: absolute;
+  width: 395px;
+  height: 56px;
+  border-radius: 60px;;
+  background-color: #2C344B;
+  color: #FFFFFF;
+  border-style: none;
+  padding-left: 32px;
+
+}
+
+::placeholder {
+  color: #BDC1CD;
+}
+
+.error {
+  visibility: hidden;
+  position: absolute;
+  bottom: 57px;
+  left: 32px;
+  color: #FB3E3E;
+}
+
+.access {
+  position: relative;
+  top: 5px;
+  left: 260px;
+  font-size: 14px;
+  font-weight: bold;
+  border-style: none;
+  color: #121725;
+  background-color: #54E6AF;
+  border-radius: 50px;
+  height: 46px;
+  width: 162px;
+}
+
+.access:hover {
+background-color: #B3FFE2;
+}
+
+.company-logos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+}
+
+
+
+/*images*/
+.dots {
+  position: absolute;
+  right: 0px;
+  bottom: 78px;
+}
+
+.back-img {
+  position: absolute;
+  right: 0px;
+  top: 130px;
+  width: 888px;
+  height: 640px;
+}
+
+.logo {
+  position: absolute;
+  left: 165px;
+  top: 102px;
+}
